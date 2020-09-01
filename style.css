@@ -1,0 +1,63 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-size: 15px;
+}
+
+.task-border-info{
+    border-top:3px solid hsl(180, 62%, 55%);
+}
+
+.task-border-danger{
+    border-top:3px solid  hsl(0, 78%, 62%);
+}
+
+.task-border-warning{
+    border-top:3px solid hsl(34, 97%, 64%);
+}
+.task-border-primary{
+    border-top:3px solid hsl(212, 86%, 64%);
+}
+.text-black{
+    color:hsl(234, 12%, 34%);
+
+}
+.text-gray{
+    color:hsl(229, 6%, 66%);
+}
+.shadow-bottom{
+    box-shadow:10px 10px 10px 10px rgba(236, 234, 234, 0.747);
+}
+
+.distance{
+    margin-top: 150px;
+    margin-bottom:150px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .width{
+        width:270px!important;
+        margin-left:79px!important;
+    }
+}
+@media only screen and(max-width: 319px) {
+    .width{
+        width:270px!important;
+        margin-left:78px!important;
+    }
+}
+@media only screen and (min-width: 557px) and (max-width: 678px) {
+    .width{
+        width:350px!important;
+        margin-left:99px!important;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 998px) {
+    .width{
+        width:450px!important;
+        margin-left:90px!important;
+    }
+}
+
+
+
